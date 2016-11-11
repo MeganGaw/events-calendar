@@ -1,3 +1,17 @@
 th {
   vertical-align: bottom; /* or middle, top */
 }
+
+td {
+  text-align: right;
+  padding-bottom: 4em;
+}
+
+.border-none {
+  border: 0;
+}
+
+.border {
+  border-color: black;
+  border: 1em;
+}
