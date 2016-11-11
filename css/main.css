@@ -1,20 +1,31 @@
 html {
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 th {
   vertical-align: bottom; /* or middle, top */
 }
 
+.calender, th, td {
+  border: 1px solid #ccc;
+}
+
+tbody td {
+  height: 10em;
+}
+
 .border-none {
   border: 0;
+}
+
+.event {
+  background-color: #f2f2f2;
 }
 
 .border {
   border-color: #ccc;
   border-bottom-color: #ccc;
   border-top-color: #ccc;
-  border-width: 1px,
 }
 
 table {
@@ -23,25 +34,28 @@ table {
 
 .pink {
   background-color: #f2bcbc;
-  border-color: #b92828;
+  border: 1px solid #b92828;
+  color: #991919;
   border-radius: 8px;
 }
 
 .grey {
   background-color: #ccc;
-  border-color: #666;
+  border: 1px solid #666;
+  color: #333;
   border-radius: 8px;
 }
 
 .purple {
   background-color: #d2d6f0;
-  border-width: 1px;
-  border-color: #1d38da;
+  border: 1px solid #1d38da;
+  color: #38448e;
   border-radius: 8px;
 }
 
 .green {
   background-color: #d1e0bf;
-  border-color: #6b7e54;
+  border: 1px solid #6b7e54;
+  color: #51603f;
   border-radius: 8px;
 }
